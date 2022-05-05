@@ -1,0 +1,21 @@
+div{
+    height:40px;
+    width:100%;
+    margin-left:10px;
+    background-color:grey;
+    border:1px solid black;
+    padding: 5px;
+    color:white;
+    font-size:30px;
+    position:sticky;
+    top:0px;
+}
+li{
+    list-style:none;
+    font-size:60px;
+    font-weight:700;
+}
+
+li + li{
+    border-top:1px solid #ccc;
+}
